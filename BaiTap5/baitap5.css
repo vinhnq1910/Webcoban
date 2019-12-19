@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	line-height: 1;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	background: #fbf9d5;
+}
+.blockproduct-1 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.blockproduct-1 li {
+    position: relative;
+    width: 50%;
+    display: block;
+}
+.blockproduct-2 li {
+    position: relative;
+    width: 50%;
+    display: block;
+}
+.blockproduct-2 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.button {
+    position: absolute;
+    z-index: 10;
+    left: 13%;
+    bottom: 7%;
+    z-index: 10;
+    width: 418px;
+    height: 50px;
+    bottom: 37px;
+    display: block;
+}
+li:nth-child(2n) .button {
+    left: 25px;
+}
+
+.button34-bottom {
+    bottom: 18px;
+}
+.button56-bottom {
+    bottom: 18px;
+}
+
+
+.button78-bottom {
+    bottom: 21px;
+}
+
+.button {
+	display: flex;
+	/*width: 100%;*/
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+.backtotop {
+    position: relative;
+    height: 61px;
+}
+.backtotop-icon {
+    position: absolute;
+    top: 21px;
+    right: 28px;
+}
+.footer {
+    position: relative;
+    height: 53px;
+}
+.nav {
+    position: absolute;
+    top: 13px;
+    position: absolute;
+    display: flex;
+}
+.footer .nav a {
+	font-size: 11px;
+	line-height: 1.81;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: "Meiryo", sans-serif;
+}
+.footer .nav a:before {
+	content: url(img/arr.gif);
+	margin-left: 29px;
+	margin-right: 7px;
+}
+.copyright {
+    position: absolute;
+    top: 13px;
+    right: 27px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 2;
+    color: #fff8ef;
+    font-family: "Century", sans-serif;
+    text-align: right;
+}
+.images {
+	margin-top: -3px;
+}
+ul li a:hover {
+	position: absolute;
+	/*display: block;*/
+	content: url(img/background_03.jpg);
+	width: 418px;
+	height: 50px;
+}

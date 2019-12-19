@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài 2 Calendar</title>
+	<link rel="stylesheet" href="css/calendar.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script src="js/javascript.js"></script>
+	<script type="text/javascript" src="js/check_login.js"></script>
+</head>
+<body>
+	<div class="form">
+		<label class="label-field">Username:</label>
+		<input type="text" id="username" name="username" placeholder="username">
+		<span class="result-validate" id="u-error"></span>
+	</div>
+	<div class="form">
+		<label class="label-field">Password:</label>
+		<input type="password" id="password" name="password" placeholder="password">
+		<span class="result-validate" id="p-error"></span>
+	</div>
+	<div class="form">
+		<label class="label-field">Email:</label>
+		<input type="text" id="email" name="email" placeholder="example@gmail.com">
+		<span class="result-validate" id="e-error"></span>
+	</div>
+	<div class="form">
+		<!-- Birthday to show calendar -->
+		<label class="label-field">Birthday:</label>
+		<div id="inputs">
+		<input type="text" id="datepicker" name="inputDate" value="" onclick="calendar()" onchange="isUserInput(this)" placeholder="Click in !">
+		<span id="notification"></span>
+		<div id="image"></div>
+		<span class="result-validate" id="date-error"></span>
+		</div>
+	</div>
+	<div id="btn-controll">
+		<button type="button" class="btn-submit" onclick="checkSubmit()">SUBMIT</button>
+		<button type="refresh" id="btn-refresh" onclick="clearForm()">REFRESH</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,213 @@
+body {
+	font-family:  Arial, san-serif;
+}
+
+.container {
+	min-width: 316px;
+	max-width: 316px;
+	width: 316px;
+	margin: 0 auto;
+	background-color: #e6f3fb;
+	padding-top: 2px;
+	padding-left: 11px;
+	padding-right: 9px;
+	padding-bottom: 17px;
+	box-sizing: border-box;
+}
+
+.title {
+	font-weight: bold;
+	margin: 2px 0px 0px 1px;
+	font-size: 16px;
+	line-height: 0.9375;
+	color: #000000;
+	font-family: "Times New Roman";	
+	padding-bottom: 1px;
+}
+
+.part-1 {
+	border-top: 4px solid #f7a418;
+	padding: 7px 0px 12px 8px;
+	display: flex;
+	background-color: #ffffff;
+	box-sizing: border-box;
+}
+
+.part-1 .img {
+	width: 156px;
+	height: 81px;
+}
+
+.part-1 .part-content {
+	width: 107px;
+	margin: 0px 0px 0px 7px;
+}
+
+.part-title {
+	font-size: 12px;
+	line-height: 15px;
+	color: #0a6395;
+	font-family: "Arial";
+	font-weight: bold;
+}
+
+.part-info {
+	font-size: 12px;
+	line-height: 1.25;
+	color: #000000;
+	font-family: "Arial";
+}
+
+.blog .part-info span {
+	font-style: italic;
+}
+
+.blog ul li{
+	font-size: 12px;
+	line-height: 1.25;
+	padding: 7px 0px 12px 10px;
+	background-color: #f9f1c2;
+	border-bottom: 1px solid #ffffff;
+}
+
+.blog ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.blog ul .list {
+	text-decoration: none;
+	color: #0A6395;
+}
+
+.part-horoscopes {
+	margin-bottom: 21px;
+	padding-top: 4px;
+}
+
+.part-2 {
+	border-top: 4px solid #f7a418;
+	padding: 20px 0px 22px 14px;
+	display: flex;
+	background-color: #ffffff;
+	box-sizing: border-box;
+}
+
+.part-2 .part-content {
+	width: 178px;
+	margin-left: 22px;
+}
+
+.part-2 .part-content .part-title {
+	font-size: 15px;
+	line-height: 1;
+	color: #000000;
+	margin-top: 4px;
+}
+
+.part-date {
+	margin-bottom: 5px;
+	font-size: 11px;
+	line-height: 1.36;
+	color: #595959;
+}
+
+.part-2 .part-content .part-info {
+	font-size: 11px;
+	line-height: 1.27;
+	color: #000000;
+}
+
+.part-2 .part-content .list {
+	color:#0A6395;
+}
+
+.part-2 .img {
+	height: 85px;
+}
+
+.part-3 {
+	height: 23px;
+	padding-top: 12px;
+	padding-left: 23px;
+	background-color: #f4f4e6;
+	font-size: 11px;
+	line-height: 1.27;
+	color: #000000;
+	background-image: url(img/img3.png);
+	background-repeat: no-repeat;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 12px;
+}
+
+.part-3 .list {
+	font-weight: bold;	
+	color: #0A6395;
+	text-decoration: none;
+}
+.font_weight_bold {
+	font-weight: bold;
+}
+
+.font_color_blue {
+	color: #0A6395;
+}
+
+.part-4 {
+	border-top: 4px solid #f7a418;
+	padding: 24px 146px 11px 23px;
+	background-color: white;
+	background-image: url(img/img4.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.part-4 .part-content {
+	font-size: 12px;
+	line-height: 15px;
+	color: #000000;
+	font-family: "Times New Roman";	
+}
+
+.part-4 .list {
+	font-size: 12px;
+	line-height: 1.25;
+	color: #0a6395;
+	font-family: "Times New Roman";	
+	text-decoration: none;
+}
+
+.part-competion {
+	padding-top: 5px;
+	margin-top: 8px;	
+	border-top: 1px solid #595959;
+}
+
+.title-competions {
+	font-size: 14px;
+	line-height: 1.07;
+	color: #000000;
+	font-family: "Times New Roman";
+  font-weight: bold;
+}
+
+.competion-info {
+	padding: 11px 47px 8px 8px;
+	list-style-type: none;
+	margin: 0px;
+	background-color: white;
+	border: 1px solid #595959;
+}
+
+.competion-info li {
+	font-size: 12px;
+	line-height: 1.25;
+	color: #4d5d73;
+	font-family: "Times New Roman";
+}
+
+.part-competion .competion-info .list {
+	color: #4d5d73;
+	text-decoration: none;
+}

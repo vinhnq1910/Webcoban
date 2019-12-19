@@ -1,0 +1,53 @@
+body {
+   background: #fff;
+   color: 333;
+}
+
+/* Dành cho điện thoại(doc) */
+@media all and (max-width: 480px) {
+ 	body {
+      background: #e7e7e7;
+   }
+}
+ 
+/* Dành cho điện thoại(ngang)*/
+@media all and (max-width: 480px) {
+ 	body {
+      background: #e7e7e7;
+   }
+}
+
+/* Dành cho máy tính bảng(dọc) */
+@media all and (max-width: 600px) {
+ 	body {
+      background: #e7e7e7;
+   }
+}
+
+/* Dành cho máy tính bảng(ngang) */
+@media all and (max-width: 800px) {
+ 	body {
+      background: #e7e7e7;
+   }
+}
+
+/* Dành cho máy tính bảng to(dọc) */
+@media all and (max-width: 768px) {
+ 	body {
+      background: #e7e7e7;
+   }
+}
+
+/* Dành cho máy tính bảng to(ngang) */
+@media all and (max-width: 1024px) {
+ 	body {
+      background: #e7e7e7;
+   }
+}
+
+/* Dành cho desktop */
+@media all and (max-width: 1025px) {
+ 	body {
+      background: #e7e7e7;
+   }
+}
